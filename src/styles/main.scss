@@ -1,0 +1,26 @@
+@use 'hero';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+
+@media (max-width:640px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        height: 100vh;
+    }
+}
